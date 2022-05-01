@@ -1,3 +1,5 @@
+# apurar o tamanho de uma parede e a quantidade de tinta necessária para pinta-la
+
 altura = float(input('Altura da parede: '))
 largura = float(input('Largura da parede: '))
 tim = 2
