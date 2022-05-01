@@ -3,4 +3,4 @@ num = int(input('Digite um número: '))
 raiz = sqrt(num)
 print(f'A raiz quadrada de {num} é {floor(raiz)}')
 
-# para importar a biblioteca intera é import math
+# para importar a biblioteca inteira é "import math"
