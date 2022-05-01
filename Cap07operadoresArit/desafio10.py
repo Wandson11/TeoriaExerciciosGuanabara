@@ -1,3 +1,5 @@
+# exercício para efetuar a conversao da moeda
+
 grana = float(input('Quanto de dinheiro vc tem na carteira: R$ '))
 dolar = 3.27
 euro = 5.19
