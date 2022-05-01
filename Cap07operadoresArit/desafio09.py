@@ -1,3 +1,6 @@
+# exercício para fazer uma tabuada do número digitado no input
+# o '-" * 12, indica a quantidade de risquinhos a aparecer antes e depois do resultado
+
 t = int(input('Digite um número para ver a tabuada: '))
 print('-' * 12)
 print(f'{t} x 1 = {t*1}')
