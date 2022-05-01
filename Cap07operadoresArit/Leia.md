@@ -1,0 +1,1 @@
+No presente cap. sao apresentadas os operadores aritiméticos juntamente com exercicios/desafios. No caso, mudei a metodologia de inclusao das variaveis no print, em aula é usada o .format(), como ja tem uma atualizaçao sobre isso, foi aplicado o f antes das aspas, ex: print(f'{variavel} e {variavel2}')
