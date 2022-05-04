@@ -1,14 +1,14 @@
 frase = 'Curso em Vídeo Python'
 
 #Junção-----------------------
-#no caso, o que tiver entre as aspas, sera usado, se não tiver nada, apresentará como está no exemplo acima.
+#no caso, o que tiver entre as aspas, será usado, se não tiver nada, apresentará como está no exemplo acima.
 #se tiver um traço -, ele vai aparecer entre todas as letras e espaços.
 '''print(''.join(frase))'''
 
 
 #Divisao---------------------------------------
 #split, separa todas as palavras, formando assim, praticamente uma lista
-#Isso acontece pq, quando uma palavra termina, ao invés do índice continuar a contagem, ele reinicia com nova palavra
+#Isso acontece pq, quando uma palavra termina, ao invés do índice continuar a contagem, ele reinicia com a nova palavra
 #ainda, tira os espaços existentes na sua contagem.
 '''print(frase.split())'''
 
@@ -34,7 +34,7 @@ frase = 'Curso em Vídeo Python'
 '''print('Em' in frase)'''
 #find indica o índice em que determinada letra ou palavra aparece, mas é o índice
 '''print(frase.find('o'))'''
-#count contara a quantidade de letra (tem que especificar, maiúscula ou minúscula), dentro das aspas do segundo parêntese.
+#count contará a quantidade de letra (tem que especificar, maiúscula ou minúscula), dentro das aspas do segundo parêntese.
 '''print(frase.count('o'))'''
 #mesclando lower com count
 '''print(frase.lower().count('O'))'''
