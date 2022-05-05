@@ -6,6 +6,7 @@ separado = n.split()
 print(f'Primeiro nome: {separado[0]}')
 print(f'último nome: {separado[:]}')'''
 
+#resposta da aula do guanabara
 n = str(input('Digito seu nome completo: ')).strip()
 nome = n.split()
 print(f'Seu primeiro nome é {nome[0]}')
