@@ -1,1 +1,1 @@
-Aula sobre condiçoes e uso de IF e ELSE, e sobre a importancia da indentaçao, onde as linhas que estiveram coloca a margem, serão automaticamente lidas, enquanto que, as que tiveram indentação, somente irão rodar se foram provadas pelo if ou else.
+Aula sobre condiçoes e uso de IF e ELSE, e sobre a importancia da indentaçao, onde as linhas que estiveram coloca a margem, serão automaticamente lidas, enquanto que, as que tiveram indentação, somente irão rodar se foram provadas pelo if ou else. E exemplos de condiçoes simples, compostas e simplificadas.
