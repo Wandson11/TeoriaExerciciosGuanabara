@@ -4,11 +4,11 @@
 '''nome = str(input('Digite o seu nome: '))
 print(f'Todas as letras maiúsculas {nome.upper()}')
 print(f'Todas as letras minúsculas {nome.lower()}')
-cortazero = nome.split()
-sumindocomzero = nome.replace(" ", "")
-contagemsemzero = len(sumindocomzero)
-print(contagemsemzero)
-print(f'Quantas letras tem o primeiro nome? {len(cortazero[0])}')'''
+cortaespaco = nome.split()
+sumindocomespaco = nome.replace(" ", "")
+contagemsemespaco = len(sumindocomespaco)
+print(contagemsemespaco)
+print(f'Quantas letras tem o primeiro nome? {len(cortaespaco[0])}')'''
 
 #resolução da aula
 nome = str(input('Digite o seu nome completo: ')).strip()
