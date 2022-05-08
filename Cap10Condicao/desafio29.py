@@ -8,4 +8,11 @@ if zum >= 80:
     print(f'Você foi multado por ter atingido velocidade acima do permitido, multa de R$ {round(multa,2)}')
 else:
     print('')
-  # ficou funcional igual ao da aula mas a estrutura feita foi de forma diferente (condiçao simples)
+  # ficou funcional igual ao da aula mas a estrutura feita foi de forma diferente (condiçao simples), conforme abaixo:
+
+velocidade = float(input('Qual é a velocidade atual do carro?')
+if velocidade > 80:
+    print('multado, voce excedeu o limite')
+    multa = (velocidade - 80) * 7
+    print(f'Sua multa é de R$ {multa}')
+print('Dirija com cuidado')
