@@ -1,1 +1,1 @@
-Na presente capítulo, são apresentados personalizações dos códigos por meio da sintaxe \033[style;text;backm. 
+Na presente capítulo, são apresentados personalizações dos códigos por meio da sintaxe \033[style;text;backm. Style: 0 (nada); 1 (negrito); 4 (sublinado); 7 (invertido) Text, define as cores das palavras (fonte de 30 a 37). Background (40 a 47)
