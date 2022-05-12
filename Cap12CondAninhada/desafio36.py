@@ -13,7 +13,7 @@ if limite >= valorpossivel:
 else:
     print(f'Empréstimo reprovado, pois a parcela mínima é de {valorpossivel} e voce só consegue comprometer {round(limite, 2)}')
 
-
+# meu modelo ficou muito parecido com o do exércicio, assim, não o reproduzi a resolução da aula.
 
 
 
