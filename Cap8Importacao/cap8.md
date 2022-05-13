@@ -6,4 +6,5 @@ bibliotecas utilizadas:
 18 - math (sin, cos, tang, radians);
 19 - random (choice);
 20 - random (shuffle mas acabei usando o sample);
-21 - pygame e playsound (reproduzir mp3).
+21 - pygame e playsound (reproduzir mp3);
+bônus: date: dataatual = date.today().year
