@@ -73,3 +73,5 @@ elif computador == 2: #pc jogou tesoura
         print('Deu empate')
     else:
         print('Jogada inválida')
+       #foi usado time (sleep) para a contagem
+#varios elif aninhados
