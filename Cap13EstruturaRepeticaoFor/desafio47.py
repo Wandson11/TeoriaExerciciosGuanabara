@@ -12,3 +12,7 @@ for c in range(1, 51):
 '''
 #tem um problema nessa resoluçao, ele faz dois lanços para tirar um número, enquanto que na minha resoluçao (a primeira), que tbem foi feita em aula, só usa uma.
 # isso é bom, pois tira carga do processador, onde a primeira opçao fez o mesmo trabalho, com a metade do trabalho.
+
+#essa resposta abaixo, tirei dos comentários da aula.
+for c in range(1, 26):
+    print(c*2, end = ' ')
