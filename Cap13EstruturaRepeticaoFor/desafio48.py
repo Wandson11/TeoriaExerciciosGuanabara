@@ -1,7 +1,7 @@
-# calcular a soma entre todos os números ímpares que são múltiplus de 3
+# calcular a soma entre todos os números ímpares que são múltiplos de 3
 #e que estão no intervalo de 1 a 500.
 
-#esse nao consegui fazer. travei em unir a sintaxe do multipus de 3 com o código.
+#esse nao consegui fazer. travei em unir a sintaxe do múltiplos de 3 com o código.
 
 '''n = 0
 for c in range(1, 501):
