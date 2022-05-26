@@ -17,3 +17,16 @@ n1 =int(input('Digite um número para calcular a fatorial: '))
 print(f'{factorial(n1)}')'''
 
 #na aula, Guanabara apresenta uma resolução igual a de cima.
+
+#foi pedido para fazer uma tarefa com esse temática mas por meio do for: 
+n1 = int(input('Digite um número fatorial: '))
+contagem = 0
+fator = 1
+for c in range(n1, 0, -1):
+    contagem += 1
+    print(f'{c}', end = ' ')
+    print(' x ' if c > 1 else ' =', end= ' ')
+    fator *= c
+print(f'{fator}', end= ' ')
+#no caso, com a contagem é decrescente, começou por n1, posteriormente, foi usado a contagem += 1, para incluir todos os números da fatorial, ainda foi usado o "fator" com multiplicação.
+# outro ponto, foi o segundo print para inserir o x e o =, na hora correta, reflexo da resolução da aula.
