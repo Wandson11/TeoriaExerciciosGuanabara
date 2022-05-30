@@ -35,3 +35,16 @@ while cont <= 10:
     print(f'{termo}')
     termo += razao
     cont += 1
+    
+    
+    
+#visando melhor assimilação, refiz o exercício e deu certo.
+primeiro = int(input('Primeiro termo: '))
+razao = int(input('Digite a razão: '))
+termo = primeiro
+c = 1
+while c <= 10:
+    print(f'{primeiro}')
+    primeiro += razao
+    c += 1
+print('fim')
