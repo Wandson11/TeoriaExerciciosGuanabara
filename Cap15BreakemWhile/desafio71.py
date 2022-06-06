@@ -49,7 +49,7 @@ while True:
 print('Fim')'''
 
 #teste
-dinheiro = int(input('Que valor você quer sacar? '))
+'''dinheiro = int(input('Que valor você quer sacar? '))
 contador100 = contador50 = contador20 = contador10 = contador5 = contador2 = contador1 = 0
 while True:
     while dinheiro - 100 >= 0:
@@ -88,5 +88,29 @@ while True:
     if contador1 !=0 :
         print(f'Foram necessário(s) {contador1} cédula(s) de 1 real')
     if dinheiro == 0:
-        break
+        break'''
+#Guanabara
+valor = int(input('Qual o valor a ser sacado? R$ '))
+total = valor
+ced = 50
+totalced = 0
+while True:
+    if total >= ced:
+        total -= ced#no ced, se jogar 50, o programa fica rodando infinitamente, por isso, é melhor a variável.
+        totalced += 1
+    else:
+        if totalced > 0:
+            print(f'Total de {totalced} cédulas de R$ {ced}')
+        if ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 2
+        elif ced == 2:
+            ced = 1
+        totalced = 0 #isso aaqui é importante, para evitar que acumule a contagem, assim reinicia sempre em um novo elif
+        if total == 0:
+            break
+print('Obrigado pela preferência')
 
