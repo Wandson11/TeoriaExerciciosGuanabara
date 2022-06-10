@@ -16,6 +16,8 @@ for c in lista:
         print(f'{".." * 10} {"R$" : >2}', end = ' ')
         print(f'{ c : >1}')'''
 
+#resolução do Guanabara
+
 listagem = ('Lapis', 1.75, 'Borracha', 2.0, 'Caderno', 15.9)
 
 print('-=-' * 20)
