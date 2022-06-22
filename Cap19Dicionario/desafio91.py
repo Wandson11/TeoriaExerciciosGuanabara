@@ -17,9 +17,11 @@ for k, v in jogadores.items():
         maior
     print(f'{k} {v}')'''
 
+#Guanabaara
+
 from random import randint
 from time import sleep
-from operator import itemgetter
+from operator import itemgetter #isso aqui, não foi bem explicado
 jogo = {'jogador1': randint(1, 6),
         'jogador2': randint(1, 6),
         'jogador3': randint(1, 6),
