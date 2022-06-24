@@ -1,5 +1,5 @@
 O novo capítulo apresenta os conceitos de funçoues aplicadas, essencialmente, quando um código vira rotina.
-Dessa forma, essas funçoes podem ser executadas em momentos distintos do processo, automazindo linhas e economizando tempo.
+Dessa forma, essas funçoes podem ser executadas em momentos distintos do processo, automatizando códigos e economizando tempo.
 Para fazer referência a criação de uma funçao, aplica-se o "def" com a variável e seus parâmetros.
 Quando o parâmetro é texto, pode ser escrito assim: def título(txt), ou seja, dentro dos parenteses, aplica-se o "txt".
 Quando o parametro é número, pode ser escrito assim: def contador(*num), ou seja, entre os parenteses, insere o sinal de multiplicação e "Num".
