@@ -12,7 +12,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try:
-        a = open(nome, 'wt+')
+        a = open(nome, 'wt+') #esse mais, vai criar um pastaou aba, para inserir os valores digitados.
         a.close()
     except:
         print('Houve um erro na criacao do arquivo')
