@@ -1,18 +1,24 @@
-print('''
-01 - Ver pessoas cadastradas
-02 - Cadastrar nova pessoa
-03 - Sair do sistem''')
-
 import desafio115a
-c=0
-escolha = int(input('Qual é a opção? '))
+import desafio115barquivo
+from time import sleep
+
+arq = 'cursoriness.txt'
+
+if not desafio115barquivo.arquivoExiste(arq):
+    desafio115barquivo.criarArquivo(arq)
+
 while True:
-    if escolha == 1:
-        print('texto')
-        c +=1
-    elif escolha == 2:
-        nome = str(input('Digite o nome: '))
-        idade = int(input('Digite a idade: '))
-
-
-print()
+    resposta = desafio115a.menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
+    if resposta == 1:
+        #opcao de listar o conteudo de um arquivo
+        desafio115barquivo.lerArquivo(arq)
+    elif resposta == 2:
+        desafio115a.cabecalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = desafio115a.leiaInt('Idade: ')
+        desafio115barquivo.cadastrar(arq, nome, idade)
+    elif resposta == 3:
+        desafio115a.cabecalho('Saindo do sistema...até logo')
+        break
+    else:
+        print('\033[31mERRO! Digite uma opção válida!\033[m')
